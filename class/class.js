@@ -39,3 +39,7 @@ var People = /** @class */ (function (_super) {
 }(Human));
 var details = new People('Dickson', 5, true);
 console.log(details.myDetails());
+// ACCESS MODIFIERS
+// * Public can be access any where
+// * Protected can be access within the class content and its extended class
+// * Private can only be access witin the class base content
